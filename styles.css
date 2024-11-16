@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1d1d23;
+    color: white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.timer-input-section {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+    background-color: #3a3a50;
+    width: 22rem;
+    padding: 10px;
+}
+
+.timer-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+    background-color: #3a3a50;
+    width: 22rem;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#last_span {
+    background-color: #39393e;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10rem;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 12px;
+    background-color: #3a3a50;
+    margin-top: 6px;
+}
+
+.end-display {
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+.time-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.time-input input {
+    color: white;
+    width: 60px;
+    padding: 0;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    background-color: #3a3a50;
+    margin: 5px;
+}
+
+input::placeholder {
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+button {
+    background-color: #f0f757;
+    border-radius: 50px;
+    padding: 5px 20px;
+
+    border: none;
+}
+
+#timer-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.timer-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+
+.timer-item.ended {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.timer-controls button {
+    margin-left: 10px;
+}
+
+
+/* Active Timers Section */
+.active-timers-section {
+    display: none;
+    margin-top: 20px;
+}
+
+.timer-container {
+    background-color: #34344a;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.timer-container.ended {
+    background-color: #f0f757;
+}
+
+.time-display {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    align-content: center;
+}
+
+.timer-controls {
+    display: flex;
+    align-items: center;
+}
+
+.stop-button {
+    background-color: rgba(240, 247, 87, 1);
+    color: rgba(52, 52, 74, 1);
+    /* font-weight: bold; */
+    border: none;
+    padding: 8px 18px;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+#timeLeft {
+    font-size: 1em;
+    /* font-weight: bold; */
+    margin-right: 10px;
+}
